@@ -5,13 +5,6 @@
 
 
 ### Requirements
-To run the code create a conda environment with packages provided in requirements.txt:
-* `conda create --channel conda-forge --name learningFromAlignement python=3.6.9`
-* `conda activate learningFromAlignement`
-* `conda install --file requirements.txt`
-
-If you get an error about dtw and opencv-python
-* Delete (or comment out) dtw and opencv-python from requirements.txt and do:
 * `pip install dtw`
 * `pip install opencv-python`
 * `conda install --file requirements.txt`
