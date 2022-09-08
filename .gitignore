@@ -127,9 +127,9 @@ dmypy.json
 .vscode/
 
 # data
-./tfrecords/
-./demo/
-./resnets/
-./logs/
-./saved_models/
+tfrecords/*
+demo/*
+resnets/*
+logs/*
+saved_models/*
 *.pth
